@@ -19,8 +19,8 @@ function doCompile {
   # npm run build
   echo "-- doCompile"
   ls -las
-  cd ..
-  npm install
+  # cd ..
+  # npm install
   npm run build
   # mkdir -p ../gh-pages/
   # cp ./dist/* ../gh-pages/
