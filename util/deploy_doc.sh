@@ -12,7 +12,7 @@ ls -las
 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
-DEPLOY_DIR="build"
+DEPLOY_DIR="public"
 
 function doCompile {
   # npm test
