@@ -18,3 +18,13 @@ cd util/
 ssh-keygen -t rsa -b 4096 -C "sh@signalwerk.ch" -f "./deploy_key"
 
 ```
+
+# enctryp ssh key
+```
+travis encrypt-file deploy_key
+```
+fill in `.travis.yml` the variable key
+
+
+# add deploy key in github
+In the Github Repo add the pub-key to the Deploy keys. (Settings)

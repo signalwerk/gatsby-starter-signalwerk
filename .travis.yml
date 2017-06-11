@@ -7,5 +7,5 @@ script:
   - bash ./util/deploy_doc.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "54b726ebe2ce"
+  - ENCRYPTION_LABEL: "d4f454d843ce"
   - COMMIT_AUTHOR_EMAIL: "sh@signalwerk.ch"
