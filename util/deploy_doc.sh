@@ -15,19 +15,8 @@ TARGET_BRANCH="gh-pages"
 DEPLOY_DIR="public"
 
 function doCompile {
-  # npm test
-  # npm run build
   echo "-- doCompile"
-  ls -las
-  # cd ..
-  # npm install
   npm run build-prefix-links
-  # mkdir -p ../gh-pages/
-  # cp ./dist/* ../gh-pages/
-  # cp ./index.html ../gh-pages/
-  # sed -i'.bak' 's$/static/$./$g' ../gh-pages/index.html
-  # rm -f ../gh-pages/*.bak
-  # cd ..
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
