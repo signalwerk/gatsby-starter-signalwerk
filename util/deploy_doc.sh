@@ -21,7 +21,7 @@ function doCompile {
   ls -las
   # cd ..
   # npm install
-  npm run build
+  npm run build-prefix-links
   # mkdir -p ../gh-pages/
   # cp ./dist/* ../gh-pages/
   # cp ./index.html ../gh-pages/

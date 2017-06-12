@@ -7,6 +7,8 @@ gatsby new gatsby-starter-signalwerk
 ```
 
 
+## First steps
+In `config.toml` change the Link-Prefix to the name of your repo.
 
 
 ## Travis CI
